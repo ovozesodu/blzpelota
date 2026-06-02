@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1000112C00000100B20001 /* BLZPelotaMixtecaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1000212C00000100B20001 /* BLZPelotaMixtecaApp.swift */; };
+		8B1000122C00000100B20001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1000222C00000100B20001 /* ContentView.swift */; };
+		8B1000132C00000100B20001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1000232C00000100B20001 /* Assets.xcassets */; };
+		8B1000412C00000100B20001 /* FirebaseAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1000512C00000100B20001 /* FirebaseAppDelegate.swift */; };
+		8B1000422C00000100B20001 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B1000522C00000100B20001 /* GoogleService-Info.plist */; };
+		8B1000432C00000100B20001 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8B1000712C00000100B20001 /* FirebaseAnalytics */; };
+		8B1000442C00000100B20001 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8B1000722C00000100B20001 /* FirebaseMessaging */; };
+		8B1000812C00000100B20001 /* BLZPelotaSignalKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8B1000732C00000100B20001 /* BLZPelotaSignalKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B1000142C00000100B20001 /* BLZ Pelota Mixteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLZ Pelota Mixteca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1000212C00000100B20001 /* BLZPelotaMixtecaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLZPelotaMixtecaApp.swift; sourceTree = "<group>"; };
+		8B1000222C00000100B20001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B1000232C00000100B20001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B1000512C00000100B20001 /* FirebaseAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAppDelegate.swift; sourceTree = "<group>"; };
+		8B1000522C00000100B20001 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B1000532C00000100B20001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1000542C00000100B20001 /* BLZPelotaMixteca.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BLZPelotaMixteca.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B1000152C00000100B20001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1000432C00000100B20001 /* FirebaseAnalytics in Frameworks */,
+				8B1000442C00000100B20001 /* FirebaseMessaging in Frameworks */,
+				8B1000812C00000100B20001 /* BLZPelotaSignalKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1000162C00000100B20001 = {
+			isa = PBXGroup;
+			children = (
+				8B1000172C00000100B20001 /* BLZ Pelota Mixteca */,
+				8B1000182C00000100B20001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B1000172C00000100B20001 /* BLZ Pelota Mixteca */ = {
+			isa = PBXGroup;
+			children = (
+				8B1000212C00000100B20001 /* BLZPelotaMixtecaApp.swift */,
+				8B1000512C00000100B20001 /* FirebaseAppDelegate.swift */,
+				8B1000222C00000100B20001 /* ContentView.swift */,
+				8B1000522C00000100B20001 /* GoogleService-Info.plist */,
+				8B1000532C00000100B20001 /* Info.plist */,
+				8B1000542C00000100B20001 /* BLZPelotaMixteca.entitlements */,
+				8B1000232C00000100B20001 /* Assets.xcassets */,
+			);
+			path = "BLZ Pelota Mixteca";
+			sourceTree = "<group>";
+		};
+		8B1000182C00000100B20001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B1000142C00000100B20001 /* BLZ Pelota Mixteca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B1000192C00000100B20001 /* BLZ Pelota Mixteca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1000312C00000100B20001 /* Build configuration list for PBXNativeTarget "BLZ Pelota Mixteca" */;
+			buildPhases = (
+				8B1000242C00000100B20001 /* Sources */,
+				8B1000152C00000100B20001 /* Frameworks */,
+				8B1000252C00000100B20001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLZ Pelota Mixteca";
+			packageProductDependencies = (
+				8B1000712C00000100B20001 /* FirebaseAnalytics */,
+				8B1000722C00000100B20001 /* FirebaseMessaging */,
+				8B1000732C00000100B20001 /* BLZPelotaSignalKit */,
+			);
+			productName = "BLZ Pelota Mixteca";
+			productReference = 8B1000142C00000100B20001 /* BLZ Pelota Mixteca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1000262C00000100B20001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8B1000192C00000100B20001 = {
+						CreatedOnToolsVersion = 15.4;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8B1000272C00000100B20001 /* Build configuration list for PBXProject "BLZ Pelota Mixteca" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				pt,
+				es,
+				Base,
+			);
+			mainGroup = 8B1000162C00000100B20001;
+			packageReferences = (
+				8B1000612C00000100B20001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8B1000622C00000100B20001 /* XCLocalSwiftPackageReference "BLZPelotaSignalKit" */,
+			);
+			productRefGroup = 8B1000182C00000100B20001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B1000192C00000100B20001 /* BLZ Pelota Mixteca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B1000252C00000100B20001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1000132C00000100B20001 /* Assets.xcassets in Resources */,
+				8B1000422C00000100B20001 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B1000242C00000100B20001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1000112C00000100B20001 /* BLZPelotaMixtecaApp.swift in Sources */,
+				8B1000412C00000100B20001 /* FirebaseAppDelegate.swift in Sources */,
+				8B1000122C00000100B20001 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B1000712C00000100B20001 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B1000612C00000100B20001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8B1000722C00000100B20001 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B1000612C00000100B20001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8B1000732C00000100B20001 /* BLZPelotaSignalKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B1000622C00000100B20001 /* XCLocalSwiftPackageReference "BLZPelotaSignalKit" */;
+			productName = BLZPelotaSignalKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8B1000622C00000100B20001 /* XCLocalSwiftPackageReference "BLZPelotaSignalKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BLZPelotaSignalKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B1000612C00000100B20001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCBuildConfiguration section */
+		8B1000282C00000100B20001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B1000292C00000100B20001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B1000302C00000100B20001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = development;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BLZ Pelota Mixteca/BLZPelotaMixteca.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "BLZ Pelota Mixteca/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blz.pelotamixteca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		8B1000322C00000100B20001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = production;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BLZ Pelota Mixteca/BLZPelotaMixteca.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "BLZ Pelota Mixteca/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blz.pelotamixteca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B1000272C00000100B20001 /* Build configuration list for PBXProject "BLZ Pelota Mixteca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1000282C00000100B20001 /* Debug */,
+				8B1000292C00000100B20001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1000312C00000100B20001 /* Build configuration list for PBXNativeTarget "BLZ Pelota Mixteca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1000302C00000100B20001 /* Debug */,
+				8B1000322C00000100B20001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1000262C00000100B20001 /* Project object */;
+}

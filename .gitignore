@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Xcode build output
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.xccheckout
+
+# User-specific Xcode data
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager local state
+.build/
+.swiftpm/
+SourcePackages/
+
+# Dependency managers
+Pods/
+Carthage/Build/
+
+# Codemagic and signing outputs
+*.ipa
+*.dSYM.zip
+*.mobileprovision
+*.cer
+*.p12
+*.pem
+
+# Logs and temporary files
+*.log
+tmp/
+*.tmp

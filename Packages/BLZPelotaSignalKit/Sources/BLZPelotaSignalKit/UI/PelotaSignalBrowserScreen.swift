@@ -90,7 +90,11 @@ public struct PelotaSignalBrowserScreen: View {
             }
         }
         .padding(.horizontal, 14)
-        .padding(.top, max(topInset - 4, 8))
+        .padding(.top, controlBarTopPadding(topInset: topInset))
+    }
+
+    private func controlBarTopPadding(topInset: CGFloat) -> CGFloat {
+        browserTopInset(topInset: topInset) - 44
     }
 
     private func controlButton(systemName: String, isEnabled: Bool, action: @escaping () -> Void) -> some View {

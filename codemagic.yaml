@@ -15,7 +15,7 @@ workflows:
         XCODE_PROJECT: "BLZ Pelota Mixteca.xcodeproj"
         XCODE_SCHEME: "BLZ Pelota Mixteca"
         BUNDLE_ID: "com.blz.pelotamixteca"
-        APP_STORE_APPLE_ID: ""
+        APP_STORE_APPLE_ID: "6775836733"
       xcode: latest
       cocoapods: default
 
